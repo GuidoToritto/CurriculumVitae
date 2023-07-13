@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@1,900&display=swap");
+
+body{
+  transition: background-color 0.5s ease-in-out;
+}
+
+.hello, .love {
+  font-family: "Poppins", sans-serif;
+  transition: font-size 0.1s ease;
+}
+
+.hello:hover{
+  font-size: 17px;
+
+}
+.imagen {
+  height: 200px;
+}
+
+.btn{
+  width: 600px;
+}
+
+.instatext{
+  font-size: 13px;
+}
+
+#button{
+  position: relative;
+  width: 100%;
+  height: 27px;
+  border-width: 1px;
+  border-color: black;
+  margin: 0px auto;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.toggle{
+  border-width: 1px;
+  border-color: black;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  transform: scale(.7);
+  border-radius: 25px;
+  transition: left 0.5s ease, border-color 0.5s ease-in-out;
+
+}
+
+#button.active .toggle{
+  left: 93%;
+  background-color: #e3fc4e; 
+}
+
+#button.active {
+  border-color: #e3fc4e;
+}
+
+body.active{
+  background-color: black;
+  color: #e3fc4e;
+  transition: background-color 0.5s ease-in-out;
+}
+
+body.active .negative{
+  content: url("./img/negative.jpg");
+}
+
+.send{
+  border-color: black;
+}
+
+body.active .send{
+  border-color: #e3fc4e;
+}
+
+.custom-swal-popup {
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+
+.top{
+  display: flex;
+}
+.ln{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 25px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.ln:hover{
+  background-color: black;
+  color: #e3fc4e;
+}
+
+body.active .ln{
+  border-color: #e3fc4e;
+}
+body.active .ln:hover{
+  background-color: #e3fc4e;
+  color: black;
+}

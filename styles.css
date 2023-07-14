@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@1,900&display=swap");
+@font-face{
+  font-family: "Poppins";
+  src: url("Poppins-BlackItalic.ttf") format('truetype');
+}
 
 body{
   transition: background-color 0.5s ease-in-out;

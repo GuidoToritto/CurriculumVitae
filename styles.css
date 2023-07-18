@@ -113,3 +113,12 @@ body.active .ln:hover{
   background-color: #e3fc4e;
   color: black;
 }
+
+section{
+  display: flex;
+}
+
+section.active{
+  display: none;
+}
+

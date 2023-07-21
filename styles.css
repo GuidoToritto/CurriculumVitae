@@ -14,7 +14,10 @@ body{
 
 .hello:hover{
   font-size: 17px;
+}
 
+.loved:hover{
+  font-size: 35px;
 }
 .imagen {
   height: 200px;
@@ -54,6 +57,17 @@ body{
   transition: left 0.5s ease, border-color 0.5s ease-in-out;
 
 }
+
+.toggle:hover{
+  background-color:#e3fc4e;
+}
+
+#button.active .toggle:hover{
+  background-color: black;
+  border-color: #e3fc4e;
+}
+
+
 
 #button.active .toggle{
   left: 93%;

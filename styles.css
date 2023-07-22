@@ -60,11 +60,13 @@ body{
 
 .toggle:hover{
   background-color:#e3fc4e;
+  
 }
 
 #button.active .toggle:hover{
   background-color: black;
   border-color: #e3fc4e;
+  
 }
 
 
@@ -90,10 +92,13 @@ body.active .negative{
 
 .send{
   border-color: black;
+  font-family: "Poppins", sans-serif;
 }
+
 
 body.active .send{
   border-color: #e3fc4e;
+  font-family: "Poppins", sans-serif;
 }
 
 .custom-swal-popup {
